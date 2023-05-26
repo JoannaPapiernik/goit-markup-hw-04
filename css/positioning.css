@@ -44,7 +44,7 @@ menu {
 .second-baby {
   display: flex;
   gap: 50px;
-  margin-left: 364px;
+  margin-left: 345px;
 }
 .first-baby-index {
   display: flex;
@@ -105,6 +105,9 @@ address {
 }
 .index-title-button {
   max-width: 1600px;
+  background-image: url=("../images/index-header-photo.jpg");
+  background-position: center;
+  background-size: cover;
 }
 .what-foto {
   display: flex;
@@ -134,7 +137,7 @@ address {
 .index-foto-list {
   background: var(--background-color);
   width: 270px;
-  height: 368px;
+  height: 428px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
