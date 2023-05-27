@@ -424,7 +424,7 @@ li {
 /*footer dołącz do nas*/
 .join-us {
   display: flex;
-  background-color: #2f303a;
+  margin-top: -252px;
 }
 .footer-join-title {
   color: var(--background-color);
