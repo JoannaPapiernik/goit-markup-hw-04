@@ -67,10 +67,10 @@ body {
 }
 .color-adress {
   color: var(--background-color);
-
+  margin: 0 auto;
   font-size: 14px;
   line-height: 1.7;
-  padding: 20px 938px 60px 15px;
+  padding: 0px 70px 60px 15px;
 }
 
 footer {
@@ -420,4 +420,41 @@ li {
 .client-icon {
   width: 50%;
   height: 50%;
+}
+/*footer dołącz do nas*/
+.join-us {
+  display: flex;
+  background-color: #2f303a;
+}
+.footer-join-title {
+  color: var(--background-color);
+}
+.footer-social-link {
+  fill: var(--background-color);
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.footer-social-link:hover,
+.footer-social-link:focus {
+  background-color: var(--brand-blue);
+  border-radius: 50%;
+}
+.footer-icon-element {
+  width: 44px;
+  height: 44px;
+  margin-right: 10px;
+}
+.footer-icons-element:last-child {
+  margin-right: 0;
+}
+.footer-links-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
