@@ -30,7 +30,9 @@ body {
   line-height: 1.6;
   font-weight: 500;
   padding: 6px 22px 6px 22px;
-  border: none;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
 }
 .active-button-one {
   font-weight: 500;
@@ -57,6 +59,7 @@ body {
   line-height: 1.2;
   margin-top: 24px;
   font-size: 26px;
+  letter-spacing: 0.03em;
 }
 .logo-studio {
   color: var(--background-color);
@@ -65,12 +68,17 @@ body {
   line-height: 1.2;
   font-size: 26px;
 }
-.color-adress {
+.foot-address {
   color: var(--background-color);
-  margin: 0 auto;
   font-size: 14px;
   line-height: 1.7;
-  padding: 0px 70px 60px 15px;
+  padding-bottom: 9px;
+}
+.foot-address-two {
+  color: var(--background-color);
+  font-size: 14px;
+  line-height: 1.7;
+  display: block;
 }
 
 footer {
@@ -92,6 +100,8 @@ a {
   font-family: "Raleway";
   margin-top: 24px;
   font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
 }
 .menu-links {
   font-weight: 500;
@@ -127,6 +137,8 @@ a {
 }
 .email-nav {
   color: var(--gray-color);
+  display: flex;
+  justify-content: baseline;
 
   font-weight: 500;
   font-size: 14px;
@@ -333,7 +345,12 @@ li {
   list-style-type: none;
 }
 .envelope {
-  color: #757575;
+  fill: currentColor;
+  margin-right: 10px;
+}
+.smartphone {
+  fill: currentColor;
+  margin-right: 10px;
 }
 .index-icons {
   width: 270px;
@@ -380,11 +397,7 @@ li {
 .clients-section {
   margin: 94px 215px;
 }
-.container-clients {
-  width: 1200px;
-  margin: 0 auto;
-  padding: 0 15px;
-}
+
 .client-list {
   display: flex;
   justify-content: center;
@@ -418,16 +431,23 @@ li {
   margin-right: 0px;
 }
 .client-icon {
-  width: 50%;
-  height: 50%;
+  display: flex;
+  justify-content: center;
+  min-width: 50%;
+  min-height: 50%;
 }
+
 /*footer dołącz do nas*/
 .join-us {
-  display: flex;
-  margin-top: -252px;
+  width: 206px;
+  height: 80px;
+  margin-top: 72px;
+  margin-left: 70px;
 }
 .footer-join-title {
   color: var(--background-color);
+  margin-top: 0;
+  margin-bottom: 20px;
 }
 .footer-social-link {
   fill: var(--background-color);
@@ -447,14 +467,30 @@ li {
 .footer-icon-element {
   width: 44px;
   height: 44px;
-  margin-right: 10px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.25);
 }
 .footer-icons-element:last-child {
   margin-right: 0;
 }
 .footer-links-container {
-  margin-top: 20px;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 0;
+  margin-top: 20px;
+}
+.footer-all {
+  display: flex;
+}
+.link-footer {
+  padding-top: 20px;
+  display: block;
+}
+
+.mail-footer {
+  padding-bottom: 9px;
+}
+.foot-address-three {
+  padding-bottom: 9px;
 }
